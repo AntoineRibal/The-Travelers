@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Arial Black';
+    color: black;
+    height: 100%;
+    text-align: center;
+}
+a, a:hover, a:active, a:visited{
+    color: black
+    
+}
+cite{
+    float: right;
+    line-height: 3;
+    margin-right: 20px;
+}
+nav{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 1;
+}
+nav h1{
+    float: left;
+    margin-left: 20px;
+}
+nav div {
+    float: right;
+    list-style: none;
+    line-height: 74px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+nav div:hover {
+    background-color: transparent;
+    font-size: 1.5em;
+}
+.line-wrap{
+    width: 18px;
+    height: 30px;
+    margin: 20px 20px; 
+    z-index: 1000;
+    display: none;
+}
+.line{
+    height: 4px;
+    margin-bottom: 6px;
+    background-color: black;
+}
+.menu-1-1-1{
+    display: none;
+    position: absolute;
+    width: auto;
+    text-align: left;
+    top: 45px;
+    right: 0;
+    padding: 20px;
+    background-color: white;
+    list-style: none;
+}
+.active_menu{
+    display: block;
+}
+.menu-1-1-1 a{
+    text-decoration: none;
+}
+
+.menu_full{
+    display: block;
+}
+
+.fermer{
+    float: right;
+    
+}
+.p_titre{
+    display: block;
+    position: relative;
+    text-align: center;
+    background-color: white;
+    opacity: 0.8;
+    font-weight: bold;
+    margin: auto;
+    width: 10%;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.categorie p:hover{opacity: 1;}
+.conteneurText:hover{opacity: 1;}
+
+/*SECTION VOYAGE */
+
+.voyage{
+    display: flex;
+    height: 1000px;
+    background-image: url('photo-1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.conteneurText{
+    padding: 20px;
+    height: auto;
+    width: 50%;
+    background-color: white;
+    opacity: 0.8;
+    font-weight: bold;
+    margin: auto;
+    border-radius:10px;
+    text-align: left;
+}
+.c1{
+    -webkit-columns: 2 100px;
+    -moz-columns: 2 100px;
+    -o-columns: 2 100px;
+    columns: 2 100px;
+}
+.c1 h2{
+    -webkit-column-span: all;
+    -moz-column-span: all;
+    -o-column-span: all;
+    column-span: all;
+}
+
+/*SECTION EVASION */
+.evasion{
+    display: flex;
+    height: 1000px;
+    background-image: url('photo-2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*SECTION REALITY */
+.realite{
+    display: flex;
+    height: 900px;
+    background-image: url('photo-3.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    height: 50px;
+    background-color: white;
+}

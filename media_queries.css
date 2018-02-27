@@ -1,0 +1,17 @@
+@media all and (max-width: 980px)
+{
+    
+    .menu_full{
+        display: none;
+    }
+    .line-wrap{
+        display: block;
+    }
+    .conteneurText{
+        width: 80%;
+        font-size: 1.4em
+    }
+    p_titre{
+        
+    }
+}
